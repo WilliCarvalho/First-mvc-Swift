@@ -10,9 +10,10 @@
 		DFC8E17528180F650049EFB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8E17428180F650049EFB0 /* AppDelegate.swift */; };
 		DFC8E17728180F650049EFB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8E17628180F650049EFB0 /* SceneDelegate.swift */; };
 		DFC8E17928180F650049EFB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8E17828180F650049EFB0 /* ViewController.swift */; };
-		DFC8E17C28180F650049EFB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC8E17A28180F650049EFB0 /* Main.storyboard */; };
 		DFC8E17E28180F6A0049EFB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC8E17D28180F6A0049EFB0 /* Assets.xcassets */; };
 		DFC8E18128180F6A0049EFB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC8E17F28180F6A0049EFB0 /* LaunchScreen.storyboard */; };
+		DFC8E18C281818660049EFB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC8E18A281818660049EFB0 /* Main.storyboard */; };
+		DFC8E18E281819BC0049EFB0 /* DadosPessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC8E18D281819BC0049EFB0 /* DadosPessoa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		DFC8E17428180F650049EFB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFC8E17628180F650049EFB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DFC8E17828180F650049EFB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DFC8E17B28180F650049EFB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFC8E17D28180F6A0049EFB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFC8E18028180F6A0049EFB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFC8E18228180F6A0049EFB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFC8E18B281818660049EFB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFC8E18D281819BC0049EFB0 /* DadosPessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadosPessoa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +61,11 @@
 				DFC8E17428180F650049EFB0 /* AppDelegate.swift */,
 				DFC8E17628180F650049EFB0 /* SceneDelegate.swift */,
 				DFC8E17828180F650049EFB0 /* ViewController.swift */,
-				DFC8E17A28180F650049EFB0 /* Main.storyboard */,
+				DFC8E18A281818660049EFB0 /* Main.storyboard */,
 				DFC8E17D28180F6A0049EFB0 /* Assets.xcassets */,
 				DFC8E17F28180F6A0049EFB0 /* LaunchScreen.storyboard */,
 				DFC8E18228180F6A0049EFB0 /* Info.plist */,
+				DFC8E18D281819BC0049EFB0 /* DadosPessoa.swift */,
 			);
 			path = "Exemplo MVC Swift";
 			sourceTree = "<group>";
@@ -125,9 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC8E18C281818660049EFB0 /* Main.storyboard in Resources */,
 				DFC8E18128180F6A0049EFB0 /* LaunchScreen.storyboard in Resources */,
 				DFC8E17E28180F6A0049EFB0 /* Assets.xcassets in Resources */,
-				DFC8E17C28180F650049EFB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +143,7 @@
 			files = (
 				DFC8E17928180F650049EFB0 /* ViewController.swift in Sources */,
 				DFC8E17528180F650049EFB0 /* AppDelegate.swift in Sources */,
+				DFC8E18E281819BC0049EFB0 /* DadosPessoa.swift in Sources */,
 				DFC8E17728180F650049EFB0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,20 +151,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DFC8E17A28180F650049EFB0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFC8E17B28180F650049EFB0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DFC8E17F28180F6A0049EFB0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DFC8E18028180F6A0049EFB0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DFC8E18A281818660049EFB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFC8E18B281818660049EFB0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
