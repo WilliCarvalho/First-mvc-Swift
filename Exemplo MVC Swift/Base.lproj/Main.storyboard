@@ -80,6 +80,13 @@
                                     <action selector="CalcularIMC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uxf-Y1-7vo"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBD-VC-nYG">
+                                <rect key="frame" x="60" y="465" width="267" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -109,6 +116,7 @@
                         <outlet property="imc" destination="UDr-LG-IaM" id="rg1-3V-uBz"/>
                         <outlet property="nome" destination="Pr7-fj-bdm" id="RYW-g4-CV6"/>
                         <outlet property="peso" destination="4dj-Na-Xvl" id="NH7-zY-Bjk"/>
+                        <outlet property="userMsg" destination="sBD-VC-nYG" id="Bnk-cS-o9B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
